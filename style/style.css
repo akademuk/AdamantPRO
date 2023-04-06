@@ -559,7 +559,7 @@ header .wrapper {
     height: 86px;
     box-sizing: border-box;
     background: #FFFFFF;
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
 
 .whatDoingContentPosition h3 {
@@ -1133,6 +1133,33 @@ select {
     background: #FFEC00;
 }
 
+.advantagesDots {
+    display: flex;
+    justify-content: center;
+}
+
+.advantagesDots .slick-dots li {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.advantagesDots .slick-dots li:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.advantagesDots .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    background: #E9E9E9;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+}
+
+.advantagesDots .slick-dots .slick-active button {
+    background: #FFEC00;
+}
 
 
 
@@ -1179,6 +1206,18 @@ select {
     .bannerRight {
         width: 45%;
     }
+    .advantagesItem {
+        min-height: 390px;
+    }
+    .whatDoingContainerLeft {
+        width: 40%;
+    }
+    .whatDoingContainerRight {
+        width: 60%;
+    }
+    .whatDoingContentPosition {
+        width: 90%;
+    }
 } 
 /* //max-width: 1200px */  
 
@@ -1202,6 +1241,9 @@ select {
     .banner video {
         height: 100%;
     }
+    .whatDoingTabs a h4 {
+        font-size: 15px;
+    }
 } 
 /* //max-width: 991px */  
 
@@ -1214,16 +1256,96 @@ select {
     video {
         display: none;
     }
+    .banner {
+        padding-top: 183px;
+        background: url(../img/mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bannerLeft h1 {
+        margin-right: 0;
+        font-size: 37px;
+        line-height: 120%;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .bannerLeft>p {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 32px;
+    }
+    .bannerLeft {
+        margin-bottom: 40px;
+    }
+    .bannerRight {
+        width: 75%;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .wrapper {
+        padding: 0 32px;
+    }
+    .banner .wrapper {
+        position: static;
+        transform: unset;
+    }
+    .banner {
+        height: 100%;
+        padding-bottom: 36px;
+        min-height: 100%;
+    }
+    .advantages {
+        padding: 64px 0;
+    }
+    .wrapper>h2 {
+        font-size: 24px;
+    }
+    .advantagesItem h3 {
+        font-size: 16px;
+        line-height: 140%;
+        margin-bottom: 8px;
+    }
+    .advantagesItem p {
+        font-size: 16px;
+    }
+    .advantagesItem {
+        min-height: 100%;
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .advantagesSlider {
+        align-items: inherit;
+        flex-wrap: wrap;
+    }
+    .whatDoing {
+        padding: 64px 0;
+    }
+    .whatDoing .wrapper>p {
+
+    }
 } 
 /* //max-width: 768px */  
 
-@media(max-width: 640px) {  
-
-}  
-/* //max-width: 640px */  
-
-@media (max-width: 480px) { 
-
+@media (max-width: 576px) { 
+    .wrapper {
+        padding: 0 16px;
+    }
+    .bannerRight {
+        width: 100%;
+    }
+    .bannerRightSection {
+        margin-bottom: 8px;
+    }
+    .bannerRightSection h4 {
+        font-size: 16px;
+    }
+    .advantages .slick-slide {
+        margin: 0px 8px 50px 8px;
+    }
+    .advantages .slick-list {
+        margin: 0 -8px;
+    }
 } 
 /* //max-width: 480px */  
 
