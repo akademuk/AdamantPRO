@@ -1,0 +1,3 @@
+$('#whatDoingContainer').responsiveTabs({
+    startCollapsed: 'accordion'
+});

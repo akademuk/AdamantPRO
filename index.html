@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Adamant PRO</title>
+</head>
+
+<body>
+    <div class="modalContainer">
+      <div class="modalWindow">
+        <button class="modalClose">
+            <img src="img/close.svg" alt="close">
+        </button>
+        <h4>Заповніть форму</h4>
+        <p>Наш менеджер з вами зв'яжеться як найшвидше</p>
+        <form action="">
+            <div class="stagesWorkInputContainer name">
+                <input type="text" placeholder="Ім'я">
+            </div>
+            <div class="stagesWorkInputContainer tel">
+                <input type="tel" placeholder="Телефон">
+            </div>
+            <select name="" id="">
+                <option value="">Як зв'язатися</option>
+                <option value="">Телефон</option>
+                <option value="">Viber</option>
+                <option value="">Telegram</option>
+                <option value="">WhatsApp</option>
+            </select>
+            <div class="recaptcha ">
+                <img src="img/recap.png" alt="recaptcha ">
+            </div>
+            <div class="stagesWorkInputContainer submit">
+                <button type="submit">
+                    Надіслати
+                    <img src="img/arrowBtn.svg" alt="arrow">
+                </button>
+            </div>
+        </form>
+      </div>
+    </div><!--Modal Window-->
+    
+
+    <header>
+        <div class="wrapper">
+            <div class="logotype">
+                <a href="#">
+                    <img src="img/logo.png" alt="Adamant PRO">
+                </a>
+            </div>
+            <ul class="navigation">
+                <li>
+                    <a href="#">Головна</a>
+                </li>
+                <li>
+                    <a href="#">Послуги</a>
+                </li>
+                <li>
+                    <a href="#">Прайс</a>
+                </li>
+                <li>
+                    <a href="#">Фото робіт</a>
+                </li>
+                <li>
+                    <a href="#">Блог</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Контакти</a>
+                </li>
+            </ul>
+            <button class="feedback openModal">Зворотный зв'язок</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header><!--Header-->
+
+    <div class="burgerMenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div><!--Burger Menu-->
+
+    <section class="banner">
+        <video autoplay  muted loop preload="auto" class="full-screen__video">
+            <source type="video/mp4" src="img/video.mp4">
+        </video>
+        <div class="wrapper">
+            <div class="bannerLeft">
+                <h1>Електромонтажні роботи</h1>
+                <p>Adamant PRO – безпечне та надійне рішення для вашого будинку</p>
+                <div class="bannerLeftLocation">
+                    <img src="img/Bannerlocation.svg" alt="Київ та Київська область">
+                    <p>Київ та Київська область</p>
+                </div>
+                <button class="request openModal">
+                    Залишити заявку
+                    <img src="img/arrowBtn.svg" alt="arrow">
+                </button>
+            </div>
+            <div class="bannerRight">
+                <div class="bannerRightSection">
+                    <p>100 000+</p>
+                    <h4>метрів електричного кабелю проклали</h4>
+                </div>
+                <div class="bannerRightSection">
+                    <p>4 000+</p>
+                    <h4>електроточок (розеток, світильників, вимикачів)</h4>
+                </div>
+                <div class="bannerRightSection">
+                    <p>у 4 рази</p>
+                    <h4>збільшилася швидкість виконання робіт</h4>
+                </div>
+            </div>
+        </div>
+    </section><!--Banner-->
+
+    <section class="advantages">
+        <div class="wrapper">
+            <h2>Переваги роботи з нами:</h2>
+            <div class="advantagesSlider">
+                <div class="advantagesItem">
+                    <img src="img/advantages1.png" alt="Прибирання після робіт">
+                    <h3>Прибирання після робіт</h3>
+                    <p>По завершенню роботи, робимо прибирання та вивозимо сміття </p>
+                </div>
+                <div class="advantagesItem">
+                    <img src="img/advantages2.png" alt="Професійна команда">
+                    <h3>Професійна команда</h3>
+                    <p>В «Adamant Pro» працюють велика кількість професійних майстрів, які ретельно підходять до своєї
+                        роботи </p>
+                </div>
+                <div class="advantagesItem">
+                    <img src="img/advantages3.png" alt="Гарантія 12 місяців">
+                    <h3>Гарантія 12 місяців</h3>
+                    <p>Гарантуємо якість виконання роботи на всіх етапах: від розробки до здачі проєкту </p>
+                </div>
+                <div class="advantagesItem">
+                    <img src="img/advantages4.png" alt="Чіткий кошторис">
+                    <h3>Чіткий кошторис</h3>
+                    <p>Купуємо та доставляємо всі необхідні матеріали. Клієнт сплачує тільки за те, що було використано
+                        на його об'єкті</p>
+                </div>
+            </div>
+            <div class="advantagesDots"></div>
+        </div>
+    </section><!--Advantages of working with us:-->
+
+    <section class="whatDoing">
+        <div class="wrapper">
+            <h2>Що ми робимо?</h2>
+            <p>Надаємо послуги з електромонтажу будь-якої складності <strong>для приватних та комерційних
+                    об'єктів:</strong></p>
+            <div class="whatDoingContainer" id="whatDoingContainer">
+                <ul class="whatDoingContainerLeft">
+                    <li class="whatDoingTabs">
+                        <a href="#tab-1">
+                            <h3>
+                                <img src="img/whatDoingIcon1.svg" alt="Монтаж електропроводки">
+                            </h3>
+                            <h4>Монтаж електропроводки</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-2">
+                            <h3>
+                                <img src="img/whatDoingIcon2.svg" alt="Встановлення системи «розумний дім»">
+                            </h3>
+                            <h4>Встановлення системи «розумний дім»</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-3">
+                            <h3>
+                                <img src="img/whatDoingIcon3.svg" alt="Електромонтаж теплої підлоги">
+                            </h3>
+                            <h4>Електромонтаж теплої підлоги</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-4">
+                            <h3>
+                                <img src="img/whatDoingIcon4.svg" alt="Встановлення відеоспостереження">
+                            </h3>
+                            <h4>Встановлення відеоспостереження</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-5">
+                            <h3>
+                                <img src="img/whatDoingIcon5.svg" alt="Встановлення пожежної сигналізації">
+                            </h3>
+                            <h4>Встановлення пожежної сигналізації</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-6">
+                            <h3>
+                                <img src="img/whatDoingIcon6.svg" alt="Електромонтаж охоронної сигналізації">
+                            </h3>
+                            <h4>Електромонтаж охоронної сигналізації</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-7">
+                            <h3>
+                                <img src="img/whatDoingIcon7.svg" alt="Електромонтаж домофона">
+                            </h3>
+                            <h4>Електромонтаж домофона</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-8">
+                            <h3>
+                                <img src="img/whatDoingIcon8.svg" alt="Встановлення блискавкозахисту">
+                            </h3>
+                            <h4>Встановлення блискавкозахисту</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                    <li class="whatDoingTabs">
+                        <a href="#tab-9">
+                            <h3>
+                                <img src="img/whatDoingIcon9.svg" alt="Заземлення">
+                            </h3>
+                            <h4>Заземлення</h4>
+                            <img src="img/whatDoingIconArrow.svg" alt="arrow">
+                        </a>
+                    </li>
+                </ul>
+                <div class="whatDoingContainerRight">
+                    <div id="tab-1" class="whatDoingContent active">
+                        <img src="img/whatDoingImg1.png" alt="Монтаж електропроводки">
+                        <div class="whatDoingContentPosition">
+                            <h3>Монтаж електропроводки</h3>
+                            <p>Один з основних напрямків нашої компанії. Ми виконуємо монтаж електропроводки в будинку,
+                                квартирі, офісі, торговому або виробничому приміщенні.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-2" class="whatDoingContent">
+                        <img src="img/whatDoingImg2.png" alt="Встановлення системи «розумний дім»<">
+                        <div class="whatDoingContentPosition">
+                            <h3>Встановлення системи «розумний дім»</h3>
+                            <p>Така система дозволяє управляти всім електричним обладнанням квартири або будинку
+                                дистанційно та контролювати його роботу. </p>
+                        </div>
+                    </div>
+
+                    <div id="tab-3" class="whatDoingContent">
+                        <img src="img/whatDoingImg3.png" alt="Електромонтаж теплої підлоги">
+                        <div class="whatDoingContentPosition">
+                            <h3>Електромонтаж теплої підлоги</h3>
+                            <p>Електропідігрів підлоги – це сучасне рішення для основного або додаткового опалення в
+                                квартирах і котеджах. Ми виконуємо роботи з електромонтажу теплої підлоги будь-якого
+                                виду задля тепла та затишку вашої оселі.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-4" class="whatDoingContent">
+                        <img src="img/whatDoingImg4.png" alt="Встановлення відеоспостереження">
+                        <div class="whatDoingContentPosition">
+                            <h3>Встановлення відеоспостереження</h3>
+                            <p>Такі системи важливі не тільки в офісах і на торгових закладах, а й у приватних будинках.
+                                Вони дозволяють спостерігати за роботою домашнього персоналу, наприклад, няні. У
+                                котеджах наявність камер служить стримувальним фактором для проникнення непрошених
+                                гостей на територію.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-5" class="whatDoingContent">
+                        <img src="img/whatDoingImg5.png" alt="Встановлення пожежної сигналізації">
+                        <div class="whatDoingContentPosition">
+                            <h3>Встановлення пожежної сигналізації</h3>
+                            <p>Займання стає причиною великих матеріальних збитків, становить небезпеку для життя людей.
+                                Пожежна сигналізація призначена для своєчасного виявлення і гасіння осередку займання.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="tab-6" class="whatDoingContent">
+                        <img src="img/whatDoingImg6.png" alt="Електромонтаж охоронної сигналізації">
+                        <div class="whatDoingContentPosition">
+                            <h3>Електромонтаж охоронної сигналізації</h3>
+                            <p>Така сигналізація – це надійний захист приміщень від зловмисників. У разі
+                                несанкціонованого проникнення вона оперативно сповіщає про подію власника об’єкта, його
+                                сусідів та представників охоронних структур.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-7" class="whatDoingContent">
+                        <img src="img/whatDoingImg7.png" alt="Електромонтаж домофона">
+                        <div class="whatDoingContentPosition">
+                            <h3>Електромонтаж домофона</h3>
+                            <p>Для багатоквартирних будинків і котеджів домофон – важлива складова системи безпеки. Він
+                                дозволяє обмежити доступ на об’єкт, виключити візити небажаних відвідувачів.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-8" class="whatDoingContent">
+                        <img src="img/whatDoingImg8.png" alt="Встановлення блискавкозахисту">
+                        <div class="whatDoingContentPosition">
+                            <h3>Встановлення блискавкозахисту</h3>
+                            <p>Наші фахівці якісно встановлюють блискавкозахист будинку або котеджу, виконують інші
+                                електричні роботи в короткі терміни.</p>
+                        </div>
+                    </div>
+
+                    <div id="tab-9" class="whatDoingContent">
+                        <img src="img/whatDoingImg9.png" alt="Заземлення">
+                        <div class="whatDoingContentPosition">
+                            <h3>Заземлення</h3>
+                            <p>Обов'язкове з'єднання для безпечного використання електроприладів. При його відсутності
+                                користуватися електричним обладнанням є небезпечним.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--What are we doing?-->
+
+    <section class="stagesWork">
+        <div class="wrapper">
+            <h2>Етапи роботи:</h2>
+            <div class="stagesWorkContainer">
+                <div class="stagesWorkLeft">
+                    <div class="accordion">
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>1</p>
+                                <h3>Отримання запиту</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Отримання запиту</h3>
+                                <p>Отримуємо заявку та готуємо персональну пропозицію </p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>2</p>
+                                <h3>Підписання договору</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Підписання договору</h3>
+                                <p>Укладаючи договір, затверджуємо план майбутніх робіт та терміни їх виконання </p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>3</p>
+                                <h3>Закупка матеріалів</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Закупка матеріалів</h3>
+                                <p>Купуємо усі матеріали та доставляє їх на об'єкт</p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>4</p>
+                                <h3>Виконання роботи</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Виконання роботи</h3>
+                                <p>Працюємо згідно з затвердженими термінами</p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>5</p>
+                                <h3>Прибирання</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Прибирання</h3>
+                                <p>Під час роботи постійно використовуємо пилососи 
+                                    для підтримки чистоти, 
+                                    по завершенню прибираємо 
+                                    та виносимо сміття </p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>6</p>
+                                <h3>Розрахунок кошторису</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Розрахунок кошторису</h3>
+                                <p>Робимо чіткі прорахунки – клієнт сплачує тільки за ту кількість матеріалів, яка була використана на об'єкті </p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>7</p>
+                                <h3>Здача готового проєкту </h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Здача готового проєкту </h3>
+                                <p>Попередньо перевіряємо всю роботу, робимо фотофіксацію</p>
+                            </div>
+                        </div>
+                        <div class="accordionSection">
+                            <div class="accordion-header">
+                                <p>8</p>
+                                <h3>Додаткові послуги</h3>
+                            </div>
+                            <div class="accordion-content">
+                                <h3>Додаткові послуги</h3>
+                                <p>За потребою, виконаємо додаткові роботи 
+                                    з електромонтажу</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stagesWorkRight">
+                    <h4>Потрібна консультація з питань електромонтажних робіт?</h4>
+                    <p>Залиште контактні дані, наш менеджер зв'яжеться з вами найближчим часом та відповість на всі питання</p>
+                    <form action="">
+                        <div class="stagesWorkInputContainer name">
+                            <input type="text" placeholder="Ім'я">
+                        </div>
+                        <div class="stagesWorkInputContainer tel">
+                            <input type="tel" placeholder="Телефон">
+                        </div>
+                        <select name="" id="">
+                            <option value="">Як зв'язатися</option>
+                            <option value="">Телефон</option>
+                            <option value="">Viber</option>
+                            <option value="">Telegram</option>
+                            <option value="">WhatsApp</option>
+                        </select>
+                        <div class="stagesWorkInputContainer submit">
+                           <button type="submit">
+                                Надіслати
+                                <img src="img/arrowBtn.svg" alt="arrow">
+                           </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!--What are we doing?-->
+
+    <section class="aboutCompany">
+        <div class="wrapper">
+            <div class="aboutCompanyLeft">
+                <h2>Про компанію</h2>
+                <p>Компанія «Adamant Pro» працює у сфері електромонтажу з 2016 року.Завдяки багаторічному досвіду роботи у сфері ремонту та будівництва, ми відкриті до реалізації найрізноманітніших проєктів для наших клієнтів. </p>
+                <p>Професійна команда фахівців відповідально ставиться до кожного замовника та сумлінно виконує свої зобов'язання, дотримуючись усіх нормативних вимог і правил техніки безпеки.</p>
+                <div class="aboutCompanyContainer">
+                    <div class="aboutCompanyContainerImg">
+                        <img src="img/aboutCompanyImg1.png" alt="About the company">
+                    </div>
+                    <div class="aboutCompanyContainerImg">
+                        <img src="img/aboutCompanyImg2.png" alt="About the company">
+                    </div>
+                    <div class="aboutCompanyContainerImg">
+                        <img src="img/aboutCompanyImg3.png" alt="About the company">
+                    </div>
+                    <div class="aboutCompanyContainerImg">
+                        <img src="img/aboutCompanyImg4.png" alt="About the company">
+                    </div>
+                    <div class="aboutCompanyContainerImg">
+                        <p>ЮГТЕХПЛАСТ</p>
+                        <img src="img/aboutCompanyImg5.png" alt="About the company">
+                    </div>
+                    <div class="aboutCompanyContainerImg">
+                        <img src="img/aboutCompanyImg6.png" alt="About the company">
+                    </div>
+                </div>
+            </div>
+            <div class="aboutCompanyRight">
+                <img src="img/aboutCompany.png" alt="About the company">
+            </div>
+        </div>
+    </section><!--About the company-->
+
+    <section class="completedWorks">
+        <div class="wrapper">
+            <div class="completedWorkTop">
+                <h2>Виконані роботи</h2>
+                <div class="completedWorksBtn">
+                    <div class="completedWorksPrev">
+                        <img src="img/prev.svg" alt="Prev">
+                    </div>
+                    <div class="completedWorksNext">
+                        <img src="img/next.svg" alt="Next">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="completedWorksSlider">
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks1.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks2.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks3.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks4.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks1.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks2.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks3.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks4.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks1.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks2.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks3.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks4.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks1.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks2.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks3.png" alt="Completed works">
+            </div>
+            <div class="landingCardFotoSliderItem">
+                <img src="img/completedWorks4.png" alt="Completed works">
+            </div>
+        </div>
+    </section><!--Completed works-->
+
+    <section class="reviews">
+        <div class="wrapper">
+            <h2>Відгуки наших клієнтів</h2>
+            <div class="reviewsContainer">
+                <div class="reviewsPrev">
+                    <img src="img/prev.svg" alt="prev">
+                </div>
+                <div class="reviewsSlider">
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                    <div class="reviewsItem">
+                        <img src="img/reviewsImg.png" alt="Reviews of our customers">
+                        <div class="reviewsItemContent">
+                            <p>Нашел ваше объявление на олх. Парни делали проводку по всей квартире. Работа отличная, всю проводку уложили качественно и в срок за 4 дня. Всем рекомендую эту бригаду. Ставлю 5 +</p>
+                            <b>Павел Матвиенко</b>
+                            <p>Посилання на <a href="#">facebook</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewsNext">
+                    <img src="img/next.svg" alt="next">
+                </div>
+            </div>
+            <div class="reviewsDots"></div>
+        </div>
+    </section><!--Reviews of our customers-->
+
+    <section class="installation">
+        <div class="wrapper">
+            <div class="installationLeft">
+                <h4>Потрібна консультація з питань електромонтажних робіт?</h4>
+                <p>Залиште контактні дані, наш менеджер зв'яжеться з вами найближчим часом та відповість на всі питання</p>
+                <form action="">
+                    <div class="stagesWorkInputContainer name">
+                        <input type="text" placeholder="Ім'я">
+                    </div>
+                    <div class="stagesWorkInputContainer tel">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <select name="" id="">
+                        <option value="">Як зв'язатися</option>
+                        <option value="">Телефон</option>
+                        <option value="">Viber</option>
+                        <option value="">Telegram</option>
+                        <option value="">WhatsApp</option>
+                    </select>
+                    <div class="stagesWorkInputContainer submit">
+                       <button type="submit">
+                            Надіслати
+                            <img src="img/arrowBtn.svg" alt="arrow">
+                       </button>
+                    </div>
+                </form>
+            </div>
+            <div class="installationRight">
+                <img src="img/installation.png" alt="Do you need advice on electrical installation work?">
+            </div>
+        </div>
+    </section><!--Do you need advice on electrical installation work?-->
+
+    <section class="contacts">
+        <h2>Контакти</h2>
+        <img src="img/maps.png" alt="map">
+        <div class="contactsContainer">
+            <ul class="contactsContainerPosition">
+                <li>
+                    <img src="img/footerLocation.svg" alt="location">
+                    Україна, 01011, м.Київ, вул. Рибальська, будинок 13, офіс 4.
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/footerTel.svg" alt="telefone">
+                        +38 (050) 555 30 75
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/footerMail.svg" alt="mail">
+                        adamantpro.rop@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/footerLocationFacebook.svg" alt="facebook">
+                        adamant.ftf
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/footerLocationInsta.svg" alt="instagram">
+                        adamant.pro
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section><!--Contacts-->
+
+    <!-- <footer>
+        <div class="wrapper">
+            <p>Adamant-pro &#169; </p>
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">
+                <img src="" alt="">
+                adamantftf@gmail.com</a>
+        </div>
+    </footer> -->
+    <!--Footer-->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/js/jquery.responsiveTabs.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    
+    <script src="script/advantagesSlider.js"></script>
+    <script src="script/completedWorksSlider.js"></script>
+    <script src="script/humburgerMenu.js"></script>
+    <script src="script/modalWindow.js"></script>
+    <script src="script/responsiveTabs.js"></script>
+    <script src="script/reviewsSlider.js"></script>
+    <script src="script/stagesWorkAccardion.js"></script>
+</body>
+</html>
