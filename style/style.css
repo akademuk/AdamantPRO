@@ -214,7 +214,7 @@ header .wrapper {
 
 .banner {
     height: 100vh;
-    min-height: 100vh;
+    min-height:670px;
 }
 
 .banner video {
