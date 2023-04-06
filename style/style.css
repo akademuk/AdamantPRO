@@ -214,6 +214,7 @@ header .wrapper {
 
 .banner {
     height: 100vh;
+    min-height: 100vh;
 }
 
 .banner video {
@@ -1181,7 +1182,24 @@ select {
 /* //max-width: 1200px */  
 
 @media  (max-width: 991px) {  
-
+    .wrapper {
+        padding: 0 32px;
+    }
+    .banner .wrapper {
+        flex-direction: column;
+    }
+    .bannerLeft {
+        width: 100%;
+    }
+    .banner {
+        height: 825px;
+    }
+    .bannerRight {
+        margin-left: auto;
+    }
+    .banner video {
+        height: 100%;
+    }
 } 
 /* //max-width: 991px */  
 
