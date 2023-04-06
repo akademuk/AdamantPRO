@@ -223,6 +223,7 @@ header .wrapper {
     object-fit: cover;
     object-position: top;
     height: 100vh;
+    min-height:670px;
     position: relative;
 }
 
@@ -1186,6 +1187,7 @@ select {
         padding: 0 32px;
     }
     .banner .wrapper {
+        top: 10vh;
         flex-direction: column;
     }
     .bannerLeft {
@@ -1209,7 +1211,9 @@ select {
 /* //max-width: 800px */  
 
 @media (max-width: 768px) {  
-
+    video {
+        display: none;
+    }
 } 
 /* //max-width: 768px */  
 
