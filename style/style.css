@@ -17,6 +17,9 @@ body {
     margin: 0;
     padding: 0;
 }
+button {
+    font-family: 'Roboto', sans-serif;  
+}
 
 * {
     outline: none;
@@ -1234,8 +1237,20 @@ select {
     display: block;
     width: max-content;
 }
-
-
+.applicationReceivedPage .wrapper.bannerLeft {
+    max-width: 1180px;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+}
+.request {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #212121;
+}
 
 
 
@@ -1563,7 +1578,7 @@ select {
         line-height: 140%;
     }
     .accordion-content {
-        padding: 16px 16px 16px 0;
+        padding: 16px 0 16px 0;
         box-sizing: border-box;
     }
     .accordion-header.active > h3 {
@@ -1730,6 +1745,15 @@ select {
     .contactsContainerPosition {
         margin-left: 32px;
     }
+    .wrapper>h2 {
+        font-size: 20px;
+    }
+    .whatDoingContentPosition {
+        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        right: 8px;
+    }
 } 
 /* //max-width: 768px */  
 
@@ -1840,6 +1864,10 @@ select {
     .applicationReceivedPage {
         background-position: 60%;
     }
+    .advantagesItem {
+        min-height: 400px;
+    }
+    
 } 
 /* //max-width: 576px */  
 

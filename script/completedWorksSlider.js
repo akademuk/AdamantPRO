@@ -29,6 +29,7 @@ var slickopts = {
       {
         breakpoint: 576,
         settings: {
+          infinite: false,
           slidesToShow: 1.5,
           slidesToScroll: 1,
         },
