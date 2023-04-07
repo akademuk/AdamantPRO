@@ -1217,6 +1217,7 @@ select {
     height: 100vh;
     box-sizing: border-box;
     display: flex;
+    overflow: hidden;
     align-items: center;
 }
 .applicationReceivedPage::before {
