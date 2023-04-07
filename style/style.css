@@ -1754,12 +1754,18 @@ select {
         box-sizing: border-box;
         right: 8px;
     }
+    .request {
+        width: 75%;
+    }
 } 
 /* //max-width: 768px */  
 
 @media (max-width: 576px) { 
     .wrapper {
         padding: 0 16px;
+    }
+    .request {
+        width: 100%;
     }
     .aboutCompanyContainerImg {
         width: 48%;
@@ -1859,7 +1865,7 @@ select {
         box-sizing: border-box;
     }
     .bannerLeft>p {
-        width: 65%;
+        width: 100%;
     }
     .applicationReceivedPage {
         background-position: 60%;
