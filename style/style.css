@@ -1191,7 +1191,7 @@ select {
 
 .reviewsNext,
 .reviewsPrev {
-    position: 100;
+    position: relative;
     z-index: 50;
     cursor: pointer;
 }
@@ -1292,6 +1292,36 @@ select {
         margin-right: 0;
         width: 100%;
     }
+    .reviewsItem {
+        width: 800px !important;
+    }
+    .reviewsSlider .slick-slide {
+        margin: 0 70px 50px 70px;
+    }
+    .installationLeft form {
+        width: 100%;    
+    }
+    .installation .wrapper {
+        align-items: inherit;
+        height: 100%;
+    }
+    .installationRight {
+        height: auto;
+    }
+    .installationRight img {
+        height: 100%;
+    }
+    .contactsContainer {
+        bottom: -60px;
+    }
+    .contacts h2 {
+        width: 100%;
+        padding: 0 64px;
+        box-sizing: border-box;
+    }
+    .contactsContainerPosition {
+        margin-left: 64px;
+    }
 } 
 /* //max-width: 1200px */  
 
@@ -1331,6 +1361,12 @@ select {
     }
     .stagesWorkRight {
         width: 480px;
+    }
+    .reviewsItem {
+        width: 600px !important;
+    }
+    .installationLeft h4 {
+        font-size: 20px;
     }
 } 
 /* //max-width: 991px */  
@@ -1582,6 +1618,90 @@ select {
     .aboutCompanyLeft h2 {
         font-size: 24px;
     }
+    .completedWorks {
+        padding: 64px 0;
+    }
+    .completedWorksBtn {
+        display: flex;
+    }
+    .completedWorksPrev,
+    .completedWorksNext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 8px;
+        width: 27px;
+        height: 27px;
+        background: #FFEC00;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .completedWorksNext {
+        margin-left: 8px;
+    }
+    .completedWorkTop h2 {
+        font-size: 24px;
+        line-height: 110%;
+    }
+    .reviews {
+        padding: 64px 0;
+    }
+    .reviewsItem {
+        flex-direction: column;
+        width: 500px !important;
+    }
+    .reviewsItem img {
+        width: 100%;
+        margin-right: 0;
+        object-fit: contain;
+        margin-bottom: 16px;
+    }
+    .reviewsItemContent p {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .reviewsItemContent b {
+        font-size: 16px;
+        margin: 16px 0;
+    }
+    .installation {
+        padding: 64px 0;
+        background: url(../img/installation.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .installation .wrapper {
+        justify-content: center;
+    }
+    .installationLeft {
+        margin-right: 0;
+        padding: 32px 16px;
+    }
+    .installationLeft p {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .installationLeft h4 {
+        font-size: 18px;
+    }
+    .installationRight {
+        display: none;
+    }
+    .contacts {
+        margin: 64px 0;
+    }
+    .contacts h2 {
+        font-size: 24px;
+        line-height: 110%;
+        margin-bottom: 40px;
+    }
+    .contacts h2 {
+        padding: 0 32px;
+    }
+    .contactsContainerPosition {
+        margin-left: 32px;
+    }
 } 
 /* //max-width: 768px */  
 
@@ -1626,14 +1746,88 @@ select {
         font-size: 16px;
         margin-bottom: 16px;
     }
+    .aboutCompanyContainerImg p {
+        font-size: 8px;
+    }
+    .reviewsItem {
+        width: 280px !important;
+    }
+    .reviewsContainer {
+        padding: 0;
+    }
+    .reviewsSlider .slick-slide {
+        margin: 0 50px 50px 50px;
+    }
+    .completedWorksSlider  {
+        margin-left: 16px;
+    }
+    .reviewsNext  {
+        position: absolute;
+        right: 0;
+    }
+    .reviewsContainer {
+        position: relative;
+    }
+    .contactsContainerPosition {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contactsContainer {
+        transform: unset;
+        left: 16px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .contactsContainerPosition {
+        margin-left: 0;
+    }
 } 
 /* //max-width: 576px */  
 
 
-@media (max-width: 400px) { 
-
+@media (max-width: 350px) { 
+    .bannerLeft h1 {
+        font-size: 30px;
+    }
+    .bannerLeftLocation>p {
+        font-size: 14px;
+    }
+    .wrapper>h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .aboutCompanyLeft h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .aboutCompany {
+        padding-bottom: 0;
+    }
+    .completedWorks {
+        padding-bottom: 0;
+    }
+    .advantages {
+        padding-bottom: 0;
+    }
+    .whatDoing {
+        padding-bottom: 0;
+    }
+    .stagesWork {
+        padding-bottom: 0;
+    }
+    .reviewsItem {
+        width: 250px !important;
+        box-sizing: border-box;
+    }
+    .contacts h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .advantages .slick-slide {
+        margin-bottom: 0;
+    }
 } 
-/* //max-width: 400px */
+/* //max-width: 350px */
 
 
 

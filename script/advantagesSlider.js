@@ -9,6 +9,15 @@ function greenSlider(){
             arrows:false,
             dots: true,
             appendDots: $('.advantagesDots'),
+            responsive: [
+                {
+                  breakpoint: 350,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                  },
+                },
+            ]
             });
             $slickGreen = true;
         }
