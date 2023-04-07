@@ -1203,7 +1203,9 @@ select {
 .accordion-header img{
     display: none;
 }
-
+.recaptcha img {
+    max-width: 100%;
+}
 
 
 
@@ -1780,6 +1782,13 @@ select {
     }
     .contactsContainerPosition {
         margin-left: 0;
+    }
+    .modalWindow {
+        width: 90%;
+    }
+    .modalClose {
+        top: 16px;
+        right: 16px;
     }
 } 
 /* //max-width: 576px */  
