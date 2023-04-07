@@ -1749,9 +1749,6 @@ select {
     .contactsContainerPosition {
         margin-left: 32px;
     }
-    .wrapper>h2 {
-        font-size: 20px;
-    }
     .whatDoingContentPosition {
         width: auto;
         max-width: 100%;
@@ -1877,6 +1874,9 @@ select {
     }
     .advantagesItem {
         min-height: 400px;
+    }
+    .prodjectTop h2 {
+        margin-bottom: 40px;
     }
     
 } 
