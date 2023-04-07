@@ -1871,7 +1871,7 @@ select {
         width: 100%;
     }
     .applicationReceivedPage {
-        background-position: 60%;
+        background-position: 60% center;
     }
     .advantagesItem {
         min-height: 400px;
