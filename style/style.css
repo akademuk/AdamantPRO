@@ -1206,8 +1206,34 @@ select {
 .recaptcha img {
     max-width: 100%;
 }
-
-
+.applicationReceivedPage {
+    background-image: url(../img/application.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.applicationReceivedPage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+.applicationReceivedPage .wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.applicationReceivedPage .wrapper > a {
+    display: block;
+    width: max-content;
+}
 
 
 
@@ -1789,6 +1815,30 @@ select {
     .modalClose {
         top: 16px;
         right: 16px;
+    }
+    .applicationReceivedPage {
+        align-items: flex-start;
+        padding-top: 50vh;
+    }
+    .applicationReceivedPage .wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .applicationReceivedPage .wrapper h1 {
+        text-align: center;
+    }
+    .applicationReceivedPage .wrapper > a {
+        width: 100%;
+        max-width: 340px;
+        box-sizing: border-box;
+    }
+    .bannerLeft>p {
+        width: 65%;
+    }
+    .applicationReceivedPage {
+        background-position: 60%;
     }
 } 
 /* //max-width: 576px */  
